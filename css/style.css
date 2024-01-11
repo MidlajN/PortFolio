@@ -779,6 +779,42 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: translate3d(0, 0, 0);
 }
 
+.findMore {
+  height: 275px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.findMore h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+.findMore i {
+  transition: 0.7s ease;
+}
+.findMore div:nth-child(2) {
+  border: 1px solid white;
+  border-radius: 100px;
+  transition: 0.7s ease;
+}
+
+.findMore div:nth-child(2):hover {
+  border: 1px solid rgba(30, 135, 124, 0.466);
+  background-color: white;
+}
+.findMore div:nth-child(2):hover i {
+  color: rgba(30, 135, 124, 0.774);
+}
+.findMore a {
+  margin-inline: 7px;
+  color: white;
+  font-size: 30px;
+}
+
+
+
+
 #fh5co-started {
   background-size: cover;
   background-position: center center;
@@ -1113,7 +1149,7 @@ input[type="text"] {
 .btn-primary {
   background: rgb(30 135 125 / 67%);
   color: #fff;
-  border: 2px solid rgb(30 135 125 / 67%);
+  border: 2px solid rgba(30, 135, 124, 0.027);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #ff9b1a !important;
