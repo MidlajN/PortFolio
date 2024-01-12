@@ -10,6 +10,9 @@
 * 	Template Style 
 *
 * ======================================================= */
+html {
+  transition: 0.5s ease !important;
+}
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
@@ -952,6 +955,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-flex-wrap: wrap;
   width: 100%;
   float: left;
+  align-items: center;
 }
 #fh5co-consult .video, #fh5co-consult .choose {
   display: inline-block;
@@ -1324,6 +1328,13 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
+}
+
+
+@media (max-width:992px){
+  .nameIn{
+    margin-bottom: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
