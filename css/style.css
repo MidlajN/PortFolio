@@ -704,10 +704,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .chart span strong {
   display: block;
 }
-.chart canvas {
-  position: absolute;
-  left: 0;
-  top: 0;
+.chart h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  color: rgb(30 135 125);
 }
 
 .work {
@@ -956,6 +957,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
   align-items: center;
+  margin-block:5vh
 }
 #fh5co-consult .video, #fh5co-consult .choose {
   display: inline-block;
